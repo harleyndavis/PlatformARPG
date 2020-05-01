@@ -3,11 +3,13 @@ import math
 
 pygame.init()
 
+
 DISPLAY_WIDTH = 800
 DISPLAY_HEIGHT = 480
 FPS = 27
 GRAVITY = .1
 
+// image loading / animation list
 walkRight = [pygame.image.load("img/R1.png"), pygame.image.load("img/R2.png"), pygame.image.load("img/R3.png"), pygame.image.load("img/R4.png"), pygame.image.load("img/R5.png"), pygame.image.load("img/R6.png"), pygame.image.load("img/R7.png"), pygame.image.load("img/R8.png"), pygame.image.load("img/R9.png")]
 walkLeft = [pygame.image.load("img/L1.png"), pygame.image.load("img/L2.png"), pygame.image.load("img/L3.png"), pygame.image.load("img/L4.png"), pygame.image.load("img/L5.png"), pygame.image.load("img/L6.png"), pygame.image.load("img/L7.png"), pygame.image.load("img/L8.png"), pygame.image.load("img/L9.png")]
 bg = pygame.image.load("img/bg.jpg")
